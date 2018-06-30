@@ -1,6 +1,6 @@
 <!doctype html>
 <html @php language_attributes() @endphp>
-  @include('partials.head')
+  {{-- @include('partials.head') --}}
   <body @php body_class() @endphp>
     @php do_action('get_header') @endphp
     {{-- @include('partials.header') --}}
