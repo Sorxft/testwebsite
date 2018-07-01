@@ -10,7 +10,7 @@
 
     {{-- Header --}}
     @php do_action('get_header') @endphp
-    {{-- @include('partials.header') --}}
+    @include('partials.header')
     {{-- End of Header --}}
 
     {{-- Content --}}
