@@ -1,15 +1,11 @@
 <!doctype html>
 <html @php language_attributes() @endphp>
-<<<<<<< HEAD
 
   {{-- Head section --}}
   @include('partials.head')
   {{-- End of Head section --}}
 
   {{-- Body section --}}
-=======
-  {{-- @include('partials.head') --}}
->>>>>>> 083297299a2c688a8db5662d45156912603e9bd1
   <body @php body_class() @endphp>
 
     {{-- Header --}}
