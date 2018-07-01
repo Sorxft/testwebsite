@@ -14,7 +14,7 @@
     {{-- End of Header --}}
 
     {{-- Content --}}
-    <div class="wrap container" role="document">
+    <div class="wrap" role="document">
       <div class="content">
 
         {{-- Main content --}}

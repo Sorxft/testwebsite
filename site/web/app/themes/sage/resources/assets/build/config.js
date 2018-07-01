@@ -51,7 +51,7 @@ if (process.env.SAGE_DIST_PATH) {
 }
 
 /**
- * If you don't know your publicPath at compile time, then uncomment the lines
+ * If you don't know your publicPath at compile time, then un-comment the lines
  * below and use WordPress's wp_localize_script() to set SAGE_DIST_PATH global.
  * Example:
  *   wp_localize_script('sage/main.js', 'SAGE_DIST_PATH', get_theme_file_uri('dist/'))
