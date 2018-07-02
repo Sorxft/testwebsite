@@ -47,40 +47,348 @@
   </div>
 </div>
 
-<div class="container">
-  {{--  Space between picture and word  --}}
+   {{--  Start About Us  --}}
+<div style="width: 100%; background-color: #DDDBD2;">
+  <div class="container" id="aboutme">
+    <div class="form-group">
+       &nbsp;
+    </div>
     <div class="form-group">
       &nbsp;
     </div>
-  {{--  Space between picture and word  --}}
-    <div class="row">
-      <div class="col-md-4">
-        <h2>Heading</h2>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
-      </div>
-      <div class="col-md-4">
-        <h2>Heading</h2>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
-      </div>
-      <div class="col-md-4">
-        <h2>Heading</h2>
-        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+    <div class="form-group">
+      &nbsp;
+    </div>
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">
+          <p class="text-center">About Me</p>
+       </h2>
+       <p class="lead">
+         Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+       </p>
+     </div>
+      <div class="col-md-5 order-md-1">
+        <img class="feature-image img-fluid mx-auto rounded" alt="500x500" src="@asset('images/windmills.jpg')" style="width: 500px; height: 500px;">
       </div>
     </div>
-    <hr>
   </div>
+  <div class="form-group">
+    &nbsp;
+  </div>
+  <div class="form-group">
+    &nbsp;
+  </div>
+  <div class="form-group" style="margin-bottom: 0%">
+    &nbsp;
+  </div>
+</div>
+    {{--  End About Us  --}}
+    {{--  Start of Card  --}}
+<div style="width: 100%;">
+  <div class="container" id="myprojects">
+    <div class="form-group">
+      &nbsp;
+    </div>
+    <div class="form-group">
+      &nbsp;
+    </div>
+    <div class="form-group">
+      &nbsp;
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-4 border-bottom border-success">
+        <h3 class="display-4">
+          <p class="text-center">My Projects</p>
+        </h3>
+      </div>
+    </div>
+    <div class="form-group">
+      &nbsp;
+    </div>
+      {{--  Start of row 1  --}}
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <img class="card-img-top" src="@asset('images/landscape.jpg')" alt="card image cap">
+          <div class="card-body">
+            <h4 class="card-title text-center">
+              Title 1
+            </h4>
+            <p class="card-text"> Some quick example text to write onn the card. This is the content of the card.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <img class="card-img-top" src="@asset('images/windmills.jpg')" alt="card image cap">
+          <div class="card-body">
+            <h4 class="card-title text-center">
+                Title 2
+            </h4>
+            <p class="card-text"> Some quick example text to write onn the card. This is the content of the card.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{--  End of row 1  --}}
+    <div class="form-group">
+      &nbsp;
+    </div>
+    {{--  Start of row 2  --}}
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <img class="card-img-top" src="@asset('images/mountains.jpg')" alt="card image cap">
+          <div class="card-body">
+            <h4 class="card-title">
+              <p class="text-center">
+                Title 3
+              </p>
+            </h4>
+            <p class="card-text"> Some quick example text to write onn the card. This is the content of the card.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <img class="card-img-top" src="@asset('images/windmills.jpg')" alt="card image cap">
+          <div class="card-body">
+            <h4 class="card-title text-center">
+                Title 4
+            </h4>
+            <p class="card-text"> Some quick example text to write onn the card. This is the content of the card.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{--  End of row 2  --}}
+    <div class="form-group">
+      &nbsp;
+    </div>
+    {{--  Start of row 3  --}}
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <img class="card-img-top" src="@asset('images/mountains.jpg')" alt="card image cap">
+          <div class="card-body">
+            <h4 class="card-title">
+              <p class="text-center">
+                Title 5
+              </p>
+            </h4>
+            <p class="card-text"> Some quick example text to write onn the card. This is the content of the card.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{--  End of row 3  --}}
+  </div>
+  <div class="form-group">
+    &nbsp;
+  </div>
+  <div class="form-group">
+    &nbsp;
+  </div>
+  <div class="form-group">
+    &nbsp;
+  </div>
+</div>
+  {{--  End of card  --}}
+  {{--  Start of Me Me Me  --}}
+<div style="width: 100%; background-color: #A6D9F7">
   <div class="container">
-    <p>
-      dsdhhfhkhahdsdhjsad hfjahjadhajs dsajkjhka jahkfjf a.d ashskdas hjaskhff . dahskdhksa kf s.djaskf hsaf fhkah  shksds / daskhsad sa hdashdas.dasdhjhjshad hdsa jdk d . dsajhajfh hjsa jd d . jksadhj kssd.Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus
-    </p>
-    <p>
-      dsdhhfhkhahdsdhjsad hfjahjadhajs dsajkjhka jahkfjf a.d ashskdas hjaskhff . dahskdhksa kf s.djaskf hsaf fhkah  shksds / daskhsad sa hdashdas.dasdhjhjshad hdsa jdk d . dsajhajfh hjsa jd d . jksadhj kssd.Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus
-    </p>
-    <p>
-      dsdhhfhkhahdsdhjsad hfjahjadhajs dsajkjhka jahkfjf a.d ashskdas hjaskhff . dahskdhksa kf s.djaskf hsaf fhkah  shksds / daskhsad sa hdashdas.dasdhjhjshad hdsa jdk d . dsajhajfh hjsa jd d . jksadhj kssd.Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus
-    </p>
+    <div class="form-group">
+      &nbsp;
+    </div>
+    <div class="form-group">
+      &nbsp;
+    </div>
+    <div class="form-group">
+      &nbsp;
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-4 border-bottom border-dark">
+        <h3 class="display-4">
+          <p class="text-center">Me Me Me</p>
+        </h3>
+      </div>
+    </div>
+    <div class="form-group">
+      &nbsp;
+    </div>
+    <div class="row">
+      <div class="col-md-3 text-center">
+        <img class="rounded-circle" src="@asset('images/landscape.jpg')" alt="Generic placeholder image" width="120" height="120">
+        <div class="form-group">
+          &nbsp;
+        </div>
+        <h2>Heading 1</h2>
+        <div class="form-group">
+          &nbsp;
+        </div>
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+      </div>
+      <div class="col-md-3 text-center">
+        <img class="rounded-circle" src="@asset('images/landscape.jpg')" alt="Generic placeholder image" width="120" height="120">
+        <div class="form-group">
+          &nbsp;
+        </div>
+        <h2>Heading 2</h2>
+        <div class="form-group">
+          &nbsp;
+        </div>
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+      </div>
+      <div class="col-md-3 text-center">
+        <img class="rounded-circle" src="@asset('images/landscape.jpg')" alt="Generic placeholder image" width="120" height="120">
+        <div class="form-group">
+          &nbsp;
+        </div>
+        <h2>Heading 3</h2>
+        <div class="form-group">
+          &nbsp;
+        </div>
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+      </div>
+      <div class="col-md-3 text-center">
+        <img class="rounded-circle" src="@asset('images/landscape.jpg')" alt="Generic placeholder image" width="120" height="120">
+        <div class="form-group">
+          &nbsp;
+        </div>
+        <h2>Heading 4</h2>
+        <div class="form-group">
+          &nbsp;
+        </div>
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+      </div>
+    </div>
   </div>
+  <div class="form-group">
+    &nbsp;
+  </div>
+  <div class="form-group">
+    &nbsp;
+  </div>
+  <div class="form-group">
+    &nbsp;
+  </div>
+</div>
+  {{--  End of Me Me Me  --}}
+  {{--  Start of Anything Here  --}}
+<div style="width: 100%;">
+  <div class="container">
+    <div class="form-group">
+      &nbsp;
+    </div>
+    <div class="form-group">
+      &nbsp;
+    </div>
+    <div class="form-group">
+      &nbsp;
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-4 border-bottom border-dark">
+        <h3 class="display-4">
+          <p class="text-center">Anything Here I guess</p>
+        </h3>
+      </div>
+    </div>
+    <div class="form-group">
+      &nbsp;
+    </div>
+    <div class="row">
+      <div class="col-md-3 text-center">
+        <img class="rounded img-thumbnail" src="@asset('images/windmills.jpg')" alt="Generic placeholder image" width="200" height="200">
+      </div>
+      <div class="col-md-3 text-center">
+        <img class="rounded img-thumbnail" src="@asset('images/landscape.jpg')" alt="Generic placeholder image" width="200" height="200">
+      </div>
+      <div class="col-md-3 text-center">
+        <img class="rounded img-thumbnail" src="@asset('images/mountains.jpg')" alt="Generic placeholder image" width="200" height="200">
+      </div>
+      <div class="col-md-3 text-center">
+        <img class="rounded img-thumbnail" src="@asset('images/landscape.jpg')" alt="Generic placeholder image" width="200" height="200">
+      </div>
+    </div>
+    <div class="form-group">
+      &nbsp;
+    </div>
+    <div class="row">
+      <div class="col-md-3 text-center">
+        <img class="rounded img-thumbnail" src="@asset('images/windmills.jpg')" alt="Generic placeholder image" width="200" height="200">
+      </div>
+      <div class="col-md-3 text-center">
+        <img class="rounded img-thumbnail" src="@asset('images/landscape.jpg')" alt="Generic placeholder image" width="200" height="200">
+      </div>
+      <div class="col-md-3 text-center">
+        <img class="rounded img-thumbnail" src="@asset('images/mountains.jpg')" alt="Generic placeholder image" width="200" height="200">
+      </div>
+      <div class="col-md-3 text-center">
+        <img class="rounded img-thumbnail" src="@asset('images/landscape.jpg')" alt="Generic placeholder image" width="200" height="200">
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    &nbsp;
+  </div>
+  <div class="form-group">
+    &nbsp;
+  </div>
+  <div class="form-group">
+    &nbsp;
+  </div>
+</div>
+  {{--  End of Anything Here  --}}
+  {{--  Start of Contact Me  --}}
+<div style="width: 100%; background-color: #000000">
+  <div class="container" id="contact">
+    <div class="form-group">
+      &nbsp;
+    </div>
+    <div class="form-group">
+      &nbsp;
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-4 border-bottom border-white">
+        <h3 class="display-4">
+          <font color="#6B685F"><p class="text-center">Contact Me</p></font>
+        </h3>
+      </div>
+    </div>
+    <div class="form-group">
+      &nbsp;
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <font color="#887934"><h2>Heading</h2></font>
+        <font color="#999994"><p>Whatever you want to write here. It better be informative, tell people how to contact you. Oh and dont be a creep. Noo one likes a creep, you could go to jail and you dont wanna go to jail, right? Yeah better stay away from jail.</p></font>
+      </div>
+      <div class="col-md-6">
+        <font color="#887934"><h2>Heading</h2></font>
+        <font color="#999994"><p>Whatever you want to write here. It better be informative, tell people how to contact you. Oh and dont be a creep. Noo one likes a creep, you could go to jail and you dont wanna go to jail, right? Yeah better stay away from jail.</p></font>
+      </div>
+    </div>
+    <div class="form-group">
+      &nbsp;
+    </div>
+    <div class="form-group">
+      &nbsp;
+    </div>
+    <div class="form-group">
+      &nbsp;
+    </div>
+    <div class="form-group">
+      &nbsp;
+    </div>
+    <div class="form-group" style="margin-bottom: 0%">
+      &nbsp;
+    </div>
+  </div>
+</div>
 @endsection

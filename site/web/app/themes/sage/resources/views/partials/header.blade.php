@@ -12,13 +12,13 @@
         <a class="nav-link home" href="#"><h5>Home</h5> <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link features" href="#"><h5>Features</h5></a>
+        <a class="nav-link features" href="#aboutme"><h5>About Me</h5></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link pricing" href="#"><h5>Pricing</h5></a>
+        <a class="nav-link pricing" href="#myprojects"><h5>Projects</h5></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#"><h5>Disabled</h5></a>
+        <a class="nav-link disabled" href="#contact"><h5>Contact Me</h5></a>
       </li>
     </ul>
   </div>
