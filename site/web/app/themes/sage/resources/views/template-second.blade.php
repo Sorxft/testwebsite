@@ -20,10 +20,7 @@
         <a class="nav-link home" href="http://localhost:3000/"><h5>Home</h5> <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link features" href="#aboutme"><h5>About Me</h5></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link pricing" href="#myprojects"><h5>Projects</h5></a>
+        <a class="nav-link features" href="#images"><h5>Images</h5></a>
       </li>
       <li class="nav-item">
         <a class="nav-link disabled" href="#contact"><h5>Contact Me</h5></a>
@@ -32,6 +29,9 @@
   </div>
 </nav>
   {{--  End of Navigation Bar  --}}
+<a href="#" class="back-to-top2" style="background: none; margin: 0%; position: fixed; bottom: 20px; right: 0%; width: 70px; height: 70px; z-index: 100; color: #ffffff; background-color: #000000; font-size: 60px">
+  <i class="fas fa-angle-double-up"></i>
+</a>
   {{--  Start of Header  --}}
 <div class="jumbotron-fluid" style="top-margin: 100px; padding: 0%">
   <div class="container-fluid" style="position: relative;">
@@ -83,7 +83,7 @@
 </div>
   {{--  End of First Heading  --}}
   {{--  Start of Images  --}}
-<div class="container">
+<div class="container" id="images">
   <div class="form-group">
     &nbsp;
   </div>
@@ -129,6 +129,61 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
+  </div>
+</div>
+<div class="form-group">
+  &nbsp;
+</div>
+<div class="form-group">
+  &nbsp;
+</div>
+<div class="form-group">
+  &nbsp;
+</div>
+  {{--  Start of Contact Me  --}}
+<div style="width: 100%; background-color: #000000">
+  <div class="container" id="contact">
+    <div class="form-group">
+      &nbsp;
+    </div>
+    <div class="form-group">
+      &nbsp;
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-4 border-bottom border-white">
+        <h3 class="display-4">
+          <font color="#6B685F"><p class="text-center">Contact Me</p></font>
+        </h3>
+      </div>
+    </div>
+    <div class="form-group">
+      &nbsp;
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <font color="#887934"><h2>Heading</h2></font>
+        <font color="#999994"><p>Whatever you want to write here. It better be informative, tell people how to contact you. Oh and dont be a creep. Noo one likes a creep, you could go to jail and you dont wanna go to jail, right? Yeah better stay away from jail.</p></font>
+      </div>
+      <div class="col-md-6">
+        <font color="#887934"><h2>Heading</h2></font>
+        <font color="#999994"><p>Whatever you want to write here. It better be informative, tell people how to contact you. Oh and dont be a creep. Noo one likes a creep, you could go to jail and you dont wanna go to jail, right? Yeah better stay away from jail.</p></font>
+      </div>
+    </div>
+    <div class="form-group">
+      &nbsp;
+    </div>
+    <div class="form-group">
+      &nbsp;
+    </div>
+    <div class="form-group">
+      &nbsp;
+    </div>
+    <div class="form-group">
+      &nbsp;
+    </div>
+    <div class="form-group" style="margin-bottom: 0%">
+      &nbsp;
+    </div>
   </div>
 </div>
 @endsection

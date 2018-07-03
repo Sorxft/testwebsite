@@ -32,6 +32,10 @@
   </div>
 </nav>
   {{--  End of Navigation Bar  --}}
+<a href="#" class="back-to-top1" style="background: none; margin: 0%; position: fixed; bottom: 20px; right: 0%; width: 70px; height: 70px; z-index: 100; color: #ffffff; background-color: #000000; font-size: 60px">
+  <i class="fas fa-angle-double-up"></i>
+</a>
+  {{--  Start of Images Slides  --}}
 <div class="template-home">
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -72,7 +76,7 @@
     </a>
   </div>
 </div>
-
+  {{--  End of Images Slides  --}}
    {{--  Start About Us  --}}
 <div style="width: 100%; background-color: #DDDBD2;">
   <div class="container" id="aboutme">
