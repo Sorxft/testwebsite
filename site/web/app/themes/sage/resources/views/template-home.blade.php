@@ -1,12 +1,38 @@
 {{--
-  Template Name: asdasd Template
+  Template Name: home Template
 --}}
 
 @extends('layouts.app')
 
 @section('content')
-
-<div class="template-asdasd">
+ {{--  Start of Navigation Bar  --}}
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">
+    <img class="img-responsive" src="@asset('images/brain.png')">
+    BrainPower
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="navbar-collapse collapse navbar-right" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link home" href="http://localhost:3000/"><h5>Home</h5> <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link features" href="#aboutme"><h5>About Me</h5></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link pricing" href="#myprojects"><h5>Projects</h5></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#contact"><h5>Contact Me</h5></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+  {{--  End of Navigation Bar  --}}
+<div class="template-home">
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -116,7 +142,7 @@
               Title 1
             </h4>
             <p class="card-text"> Some quick example text to write onn the card. This is the content of the card.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="http://localhost:3000/sub-page1/" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
       </div>
