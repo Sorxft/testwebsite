@@ -17,7 +17,7 @@
   <div class="navbar-collapse collapse navbar-right" id="navbarNav">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link home" href="http://localhost:3000/"><h5>Home</h5> <span class="sr-only">(current)</span></a>
+        <a class="nav-link home" href="https://ryanpatrickwong.com/"><h5>Home</h5> <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link features" href="#images"><h5>Images</h5></a>

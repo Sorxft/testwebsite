@@ -17,7 +17,7 @@
   <div class="navbar-collapse collapse navbar-right" id="navbarNav">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link home" href="http://localhost:3000/"><h5>Home</h5> <span class="sr-only">(current)</span></a>
+        <a class="nav-link home" href="https://ryanpatrickwong.com/"><h5>Home</h5> <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link features" href="#aboutme"><h5>About Me</h5></a>
@@ -146,7 +146,7 @@
               Title 1
             </h4>
             <p class="card-text"> Some quick example text to write onn the card. This is the content of the card.</p>
-            <a href="http://localhost:3000/sub-page1/" class="btn btn-primary">Go somewhere</a>
+            <a href="https://ryanpatrickwong.com/second-page/" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
       </div>
@@ -244,9 +244,9 @@
     </div>
     <div class="row justify-content-center">
       <div class="col-4 border-bottom border-dark">
-        <h3 class="display-4">
-          <p class="text-center">Me Me Me</p>
-        </h3>
+        <h1>
+          <p class="text-center">WHY CHOOSE US?</p>
+        </h1>
       </div>
     </div>
     <div class="form-group">
@@ -254,7 +254,7 @@
     </div>
     <div class="row">
       <div class="col-md-3 text-center">
-        <img class="rounded-circle" src="@asset('images/landscape.jpg')" alt="Generic placeholder image" width="120" height="120">
+        <i class="fas fa-thumbs-up fa-5x"></i>
         <div class="form-group">
           &nbsp;
         </div>
@@ -265,7 +265,7 @@
         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
       </div>
       <div class="col-md-3 text-center">
-        <img class="rounded-circle" src="@asset('images/landscape.jpg')" alt="Generic placeholder image" width="120" height="120">
+        <i class="fas fa-calendar-alt fa-5x"></i>
         <div class="form-group">
           &nbsp;
         </div>
@@ -276,7 +276,7 @@
         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
       </div>
       <div class="col-md-3 text-center">
-        <img class="rounded-circle" src="@asset('images/landscape.jpg')" alt="Generic placeholder image" width="120" height="120">
+        <i class="fas fa-cogs fa-5x"></i>
         <div class="form-group">
           &nbsp;
         </div>
@@ -287,7 +287,7 @@
         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
       </div>
       <div class="col-md-3 text-center">
-        <img class="rounded-circle" src="@asset('images/landscape.jpg')" alt="Generic placeholder image" width="120" height="120">
+        <i class="fas fa-user-clock fa-5x"></i>
         <div class="form-group">
           &nbsp;
         </div>
