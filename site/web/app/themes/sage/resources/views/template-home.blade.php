@@ -245,7 +245,7 @@
     <div class="row justify-content-center">
       <div class="col-4 border-bottom border-dark">
         <h1>
-          <p class="text-center">WHY CHOOSE US?</p>
+          <p class="text-center">Me Me Me?</p>
         </h1>
       </div>
     </div>
