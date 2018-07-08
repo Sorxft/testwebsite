@@ -33,7 +33,7 @@
 </nav>
   {{--  End of Navigation Bar  --}}
 <a href="#" class="back-to-top1" style="background: none; margin: 0%; position: fixed; bottom: 20px; right: 0%; width: 70px; height: 70px; z-index: 100; color: #ffffff; background-color: #000000; font-size: 60px">
-  <i class="fas fa-angle-double-up"></i>
+  <i class="fa fa-angle-double-up"></i>
 </a>
   {{--  Start of Images Slides  --}}
 <div class="template-home">
@@ -254,7 +254,7 @@
     </div>
     <div class="row">
       <div class="col-md-3 text-center">
-        <i class="fas fa-thumbs-up fa-5x"></i>
+        <i class="fa fa-thumbs-up fa-5x"></i>
         <div class="form-group">
           &nbsp;
         </div>
@@ -265,7 +265,7 @@
         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
       </div>
       <div class="col-md-3 text-center">
-        <i class="fas fa-calendar-alt fa-5x"></i>
+        <i class="fa fa-calendar-alt fa-5x"></i>
         <div class="form-group">
           &nbsp;
         </div>
@@ -276,7 +276,7 @@
         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
       </div>
       <div class="col-md-3 text-center">
-        <i class="fas fa-cogs fa-5x"></i>
+        <i class="fa fa-cogs fa-5x"></i>
         <div class="form-group">
           &nbsp;
         </div>
@@ -287,7 +287,7 @@
         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
       </div>
       <div class="col-md-3 text-center">
-        <i class="fas fa-user-clock fa-5x"></i>
+        <i class="fa fa-user-clock fa-5x"></i>
         <div class="form-group">
           &nbsp;
         </div>
